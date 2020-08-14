@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:background="@drawable/first" />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/first"
+        android:background="@drawable/second" />
+
+    <Button
+        android:id="@+id/third"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_below="@+id/first"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/third" />
+
+    <Button
+        android:id="@+id/forth"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_below="@+id/second"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/third"
+        android:background="@drawable/forth" />
+
+    <Button
+        android:id="@+id/fifth"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_below="@+id/third"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fifth" />
+
+    <Button
+        android:id="@+id/sixth"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_below="@+id/forth"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/third"
+        android:background="@drawable/sixth" />
+</RelativeLayout>
